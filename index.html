@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <script type="text/javascript" src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/ef9d18da78.js" crossorigin="anonymous"></script>
+    <title>Challenge 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="./img/Logo.png" alt="logo Alura">
+            <span>E</span><span>n</span><span>c</span><span>r</span><span>i</span><span>p</span><span>t</span><span>a</span><span>d</span><span>o</span><span>r</span><span>&nbsp;</span><span>d</span><span>e</span><span>&nbsp;</span><span>t</span><span>e</span><span>x</span><span>t</span><span>o</span>
+
+        </div>
+
+        <div class="left">
+            <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+        </div>
+
+        <div class="right">
+            <img src="./img/detective.webp" alt="buscador" id="imgder">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" rows="8" col="80">Ingrese el mensaje que desee encriptar o desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
+        </div>
+        <div class="left-button">
+            <p><i class="fa-solid fa-triangle-exclamation"></i>  Solo minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/soniapachecomza"><i class="fa-brands fa-github"></i></a>
+
+            <a href="https://www.instagram.com/soni.a2011/"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="www.linkedin.com/in/sonia-beatriz-pacheco"><i class="fa-brands fa-linkedin"></i></a>
+            
+
+            <a href="mailito:soniapachecomza@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
